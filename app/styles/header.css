@@ -1,0 +1,42 @@
+.header-name{
+    position: absolute; 
+    right: 20px; 
+    align-self:center;
+    color: #F6F6F6;
+}
+
+.header-avatar{
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.header-name:hover{
+    cursor: pointer;
+}
+
+.header-menu-item{
+    min-height:20px; 
+    height:20px;
+}
+
+.etalat-header{
+    height: 50px;
+    width: 100%;
+    background-color: #fff; 
+}
+
+.header-dropdown-text{
+    align-self:center;
+    font-size:13px;
+}
+
+md-list-item._md-button-wrap>div.md-button:first-child{
+    border-radius:15px;
+}
+
+md-list-item > .md-button {
+    border-radius:15px;
+}
+md-list-item > button {
+    border-radius: 15px;
+}

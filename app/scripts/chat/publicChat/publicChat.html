@@ -1,0 +1,22 @@
+<div class="public-chat-container">
+    <md-content class="full-height" style="border-radius:5px;">
+        <md-list flex class="md-dense messages-list" scroll-glue>
+                <md-list-item class="md-3-line" 
+                    ng-repeat="message in messages">
+                        <img ng-src="{{message.userAvatar}}" class="md-avatar" alt="{{message.username}}" />
+                        <div class="md-list-item-text" layout="column">
+                            <h3><b>{{ message.username }}</b></h3>
+                            <h4>{{ message.body }}</h4>
+                            <p style="font-size:10px;">{{ message.date }}</p>
+                        </div>
+                    <md-divider ng-if="!$last"></md-divider>
+                </md-list-item>
+        </md-list>
+        <div class="public-chat-input">
+            <input id="message-input" type="text" placeholder="Zi ceva la oameni.."/>
+            <img src="images/send-button.svg"
+                class="send-message-button"
+                ng-click="sendMessage()"/>
+        </div>
+    </md-content>
+</div>

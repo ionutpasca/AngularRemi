@@ -1,0 +1,47 @@
+.public-chat-container{
+    padding:5px;
+    height: 98%;
+}
+
+.messages-list{
+    height:90%;
+    overflow: auto;
+}
+
+.chat-input{
+    height: 15%;
+}
+
+.send-message-button{
+    max-height: 17px;
+}
+
+.public-chat-input{
+    height:7%;
+    padding-top: 7px;
+    text-align: center;
+    margin: 3px 5px;
+    border:1px #ccc solid;
+    border-radius: 4px;    
+}
+
+.public-chat-input input{
+    width: 70%;
+    height: 90%;
+    margin-left: 2%;
+    padding-left: 15px;
+    border: none;
+}
+.public-chat-input input:focus{
+    outline: none;
+}
+
+.public-chat-input img{
+    width: 18%;
+}
+
+.chat-message{
+    width:100%;
+    display: inherit;
+    align-self: center;
+}

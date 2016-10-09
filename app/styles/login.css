@@ -1,0 +1,18 @@
+.login-header{
+    height:30%;
+    width:100%;
+}
+
+.login-body{
+    height: 70%;
+}
+.login-body > div{
+    align-self: center;
+    text-align: center;
+}
+
+.facebook-login-icon{
+    max-width: 50px;
+    max-height: 50px;
+    cursor: pointer;
+}

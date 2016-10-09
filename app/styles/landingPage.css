@@ -1,0 +1,50 @@
+.game-type{
+    height: 100%;
+    border-radius: 15px;
+}
+.first-game{
+    position: relative;
+    height: 100%;
+    margin-right: 14px;
+}
+
+.second-game{
+    margin-bottom:7px;
+    height: 100%;
+}
+
+.third-game{
+    margin-top:7px;
+    height: 100%;
+}
+
+@media screen and (max-width: 960px) {
+    .first-game{
+        height:50%;
+        margin-right: 0;
+    }
+    .second-game {
+        margin-bottom: 0;
+        margin-top:7px;
+        margin-right: 7px;
+    }
+    .third-game{
+        margin-top: 0px;
+        margin-top:7px;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .first-game{
+        height:50%;
+        margin-right: 0;
+        margin-bottom: 7px;
+    }
+    .second-game {
+        margin: 7px 0;
+    }
+    .third-game{
+        margin:7px 0;
+    }
+}

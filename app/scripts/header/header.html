@@ -1,0 +1,51 @@
+<div layout="row" class="main-header">
+    <img src="images/Untitled.png" alt="" style="height:50px; align-self: center; margin-left:50px;">
+
+    <div class="header-name" style="border-radius:15px; height: 100%;">
+        <md-menu md-offset="0 45" md-position-mode="target-right target">
+            <md-list-item style="float:right; border-radius:15px; height: 75%; min-height:45px;" ng-click="$mdOpenMenu()">
+                <img ng-src="{{user.userAvatar}}" class="md-avatar header-avatar" alt="{{user.username}}">
+                <span>{{user.username}}</span>
+            </md-list-item>
+            <md-menu-content style="min-width: 150px; font-size:13px;">
+                <md-menu-item class="header-menu-item">
+                    <md-button style="text-align: center; min-height:20px;">
+                        <div layout="row" flex="100">
+                            <div layout="column" flex="30" style="align-self:center;">
+                                <img src="images/icons/user.svg" alt="Profile" style="height: 20px;">
+                            </div>
+                            <div class="header-dropdown-text" layout="column" flex="70">
+                                Profil
+                            </div>
+                        </div>
+                    </md-button>
+                </md-menu-item>
+                <md-menu-item class="header-menu-item">
+                    <md-button style="text-align: center;">
+                        <div layout="row" flex="100">
+                            <div layout="column" flex="30" style="align-self:center;">
+                                <img src="images/icons/settings.svg" alt="Settings" style="height: 20px;">
+                            </div>
+                            <div class="header-dropdown-text" layout="column" flex="70">
+                                Setări
+                            </div>
+                        </div>
+                    </md-button>
+                </md-menu-item>
+                <md-menu-divider></md-menu-divider>
+                <md-menu-item class="header-menu-item">
+                    <md-button style="text-align: center;">
+                        <div layout="row" flex="100">
+                            <div layout="column" flex="30" style="align-self:center;">
+                                <img src="images/icons/exit.svg" alt="Sign out" style="height: 20px;">
+                            </div>
+                            <div class="header-dropdown-text" layout="column" flex="70">
+                                Delogare
+                            </div>
+                        </div>
+                    </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
+    </div>
+</div>
